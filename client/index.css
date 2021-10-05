@@ -1,0 +1,85 @@
+body {
+    background-image: linear-gradient(to right, rgb(214, 154, 214),purple);
+    color:black;
+    font-family:fantasy
+}
+
+#image{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#tg {
+    height: 150px;
+    width: 150px;
+    border-radius: 1000px;
+    
+    
+}
+
+.paragraphs{
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* text-indent: 50px; */
+}
+
+#div1{
+    display: flex;
+    justify-content: center;
+}
+
+#div2{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+
+#storySection {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#storyButton:hover {
+    color: black;
+    background-color:pink;
+}
+
+#header1{
+    background-color:black;
+    height: 60px;
+    color:white;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+#storyForm{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#name{
+    margin-bottom: 25px;
+    width: 100px;
+
+}
+
+#storyInput{
+    width: 500px;
+}
+
+
+#submitStory{
+    width: 500px
+}
+#submitStory:hover{
+    background-color: pink;
+    color: black
+}
