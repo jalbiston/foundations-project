@@ -13,7 +13,7 @@ const storyContainer = document.querySelector("#stories")
 
 
 function storyTime() {
-  axios.get("http://localhost:4000/api/userstories").then((res) => {
+  axios.get("/api/userstories").then((res) => {
     const stories = res.data;
     console.log(stories);
     for (let i = 0; i < stories.length; i++) {
@@ -48,7 +48,7 @@ storyField.addEventListener("click", (e) => {
     const heading = document.getElementById("name").value
     const storyContent = document.getElementById("storyInput").value
     // console.log(storyContent, heading);
-    axios.post("http://localhost:4000/api/userstories", {heading:heading, content: storyContent})
+    axios.post("/api/userstories", {heading:heading, content: storyContent})
     .then((res) => {
         storyTime()
         storyForm.reset()

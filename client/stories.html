@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="index.css" />
 
     <title>Stories</title>
-</head>
-<header id = "header1">
-    <a href="index.html">Home</a>
-    <a href="stories.html">Stories</a>
-</header>
+  </head>
 
-<body>
-    
+  <body>
+    <header id = "header1">
+    <div class="navButtons">
+      <a href="index.html">Home</a>
+      <a href="stories.html">Stories</a>
+    </div>
+    </header>  
 
-       
     <header>Click button Below to read some user stories</header>
-    <br>
-    <button id = "storyButton">Stories for inspiration</button>
-<section id ="stories"></section>
-<br>
-<form id = "storyForm">
-    <label for="heading">Name:</label>
-    <input id="name" name="heading">
-    
-    
-    
-    
-    <label for="content">Tell Us your Story:</label>
-    <textarea id="storyInput" name="content" rows="30" cols="50">
-      </textarea>
-      <br><br>
-      <button type="submit" id="submitStory" value="Submit">Submit Story</button>
+    <br />
+    <button id="storyButton">Stories for inspiration</button>
+    <section id="stories"></section>
+    <br />
+    <form id="storyForm">
+      <label for="heading">Name:</label>
+      <input id="name" name="heading" />
+
+      <label for="content">Tell Us your Story:</label>
+      <textarea id="storyInput" name="content" rows="30" cols="50"> </textarea>
+      <br /><br />
+      <button type="submit" id="submitStory" value="Submit">
+        Submit Story
+      </button>
     </form>
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script src="stories.js"></script>
-</body>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="stories.js"></script>
+  </body>
 </html>

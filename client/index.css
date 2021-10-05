@@ -1,85 +1,97 @@
 body {
-    background-image: linear-gradient(to right, rgb(214, 154, 214),purple);
-    color:black;
-    font-family:fantasy
+  background-image: linear-gradient(to right, rgb(214, 154, 214), purple);
+  color: black;
+  font-family: fantasy;
 }
 
-#image{
-    display: flex;
-    justify-content: center;
-    
+#image {
+  display: flex;
+  justify-content: center;
 }
-
 
 #tg {
-    height: 150px;
-    width: 150px;
-    border-radius: 1000px;
-    
-    
+  height: 150px;
+  width: 150px;
+  border-radius: 1000px;
 }
 
-.paragraphs{
-    /* display: flex;
+.paragraphs {
+  /* display: flex;
     justify-content: center;
     flex-direction: column; */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* text-indent: 50px; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* text-indent: 50px; */
 }
 
-#div1{
-    display: flex;
-    justify-content: center;
+#div1 {
+  display: flex;
+  justify-content: center;
 }
 
-#div2{
-    display:flex;
-    justify-content: center;
+#div2 {
+  display: flex;
+  justify-content: center;
 }
-
-
-
 
 #storySection {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-
 
 #storyButton:hover {
-    color: black;
-    background-color:pink;
+  color: black;
+  background-color: pink;
 }
 
-#header1{
-    background-color:black;
-    height: 60px;
-    color:white;
-    text-decoration: none;
-    margin-bottom: 50px;
+#header1 {
+  background-color: black;
+  height: 60px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 50px;
 }
-
-#storyForm{
-    display: flex;
-    flex-direction: column;
-}
-
-
-#name{
-    margin-bottom: 25px;
-    width: 100px;
-
-}
-
-#storyInput{
-    width: 500px;
+a {
+  text-decoration: none;
+  color: white;
 }
 
 
-#submitStory{
-    width: 500px
+a:hover{
+    color:pink
 }
-#submitStory:hover{
-    background-color: pink;
-    color: black
+/* #home{
+    color:white
+}
+
+#home:hover{
+    color:pink
+}
+
+#stories{
+    color: white
+}
+#stories:hover{
+    color:pink
+} */
+
+#storyForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#name {
+  margin-bottom: 25px;
+  width: 100px;
+}
+
+#storyInput {
+  width: 500px;
+}
+
+#submitStory {
+  width: 500px;
+}
+#submitStory:hover {
+  background-color: pink;
+  color: black;
 }
